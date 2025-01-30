@@ -7,4 +7,3 @@ gunicorn
 plotly
 spotipy
 python-dotenv
-os
