@@ -1,14 +1,13 @@
 {
-	"image": "mcr.microsoft.com/devcontainers/python:0-3.11",
-	"waitFor": "onCreateCommand",
-	"onCreateCommand": "pip3 install --user -r requirements.txt",
-	"postCreateCommand": "",
+	"image": "mcr.microsoft.com/devcontainers/python:3.9",
+	"features": {
+	  "ghcr.io/devcontainers/features/docker-in-docker:1": {}
+	},
 	"customizations": {
 	  "vscode": {
 		"extensions": [
-		  "ms-toolsai.jupyter",
 		  "ms-python.python",
-		  "ms-python.pylint"
+		  "ms-python.vscode-pylance"
 		]
 	  }
 	}
