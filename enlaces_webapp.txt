@@ -1,0 +1,2 @@
+github_web_app: https://verbose-space-capybara-wr96vw6x9ppvhxwv-5000.app.github.dev/
+Render_web_app: https://fourgeek-flask-render-integration-fgm.onrender.com/
