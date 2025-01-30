@@ -4,3 +4,7 @@ requests
 scikit-learn
 flask
 gunicorn
+plotly
+spotipy
+dotenv
+os
